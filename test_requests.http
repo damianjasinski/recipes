@@ -1,0 +1,12 @@
+POST http://localhost:8881/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "email":"test@test.com",
+    "password":"12345678"
+}
+
+GET http://localhost:8881/api/recipe/15
+content-type: application/json
+Authorization: Basic dGVjaEBnbWFpbC5jb206MTIzNDU2Nzg=
+
